@@ -385,7 +385,7 @@
 .about:after {
     content: url("../images/about-us_bg.png");
     position: absolute;
-    top: -230px;
+    top: -130px;
     z-index: 0;
 }
 
@@ -560,6 +560,19 @@
     }
 }
 
+@media (max-width: 1300px) {
+    .about:before, .about:after {
+        top: -120px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .about:before, .about:after {
+        top: -115px;
+    }
+}
+
+
 @media (max-width: 1270px) {
     .intro__content {
         top: 220px;
@@ -576,6 +589,18 @@
     }
 }
 
+@media (max-width: 1100px) {
+    .about:before, .about:after {
+        top: -105px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .about:before, .about:after {
+        top: -100px;
+    }
+}
+
 @media (max-width: 960px) {
     #wrapper {
         padding-bottom: 220px;
@@ -584,6 +609,12 @@
         padding-top: 80px;
         height: 220px;
         margin-top: -220px;
+    }
+}
+
+@media (max-width: 900px) {
+    .about:before, .about:after {
+        top: -95px;
     }
 }
 
